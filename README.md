@@ -48,5 +48,8 @@
 >>>>Plants
 
 ## Last（最后）
+**Author: LZ** <br>
+**QQ: 2117610943** <br>
+**Emal: 2117610943@qq.com** <br>
 **Programming capacity is limited, please understand**<br>
 [OthersBlog](https://blog.csdn.net/qq_40630246/article/details/102643196)

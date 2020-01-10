@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class">
+      <UniqueIdentifier>{c99b1fb1-6ade-4c47-a881-e97557aee664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Source Files">
+      <UniqueIdentifier>{be1497b9-2fe4-4463-89bf-127acf678dcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Header Files">
+      <UniqueIdentifier>{4b6e849f-ed5e-422b-a545-6ca89a74bd67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Source Files\Plants">
+      <UniqueIdentifier>{ffab18ee-cab1-45d0-9eb8-3445cb7faecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Source Files\Zombies">
+      <UniqueIdentifier>{5c117c33-70b0-44b5-81ec-41b2dabeef06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Header Files\Plants">
+      <UniqueIdentifier>{ff4a27fd-2f5e-4924-a28f-202ffa5217c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Header Files\Zombies">
+      <UniqueIdentifier>{ca5d7643-8d78-46ad-9091-0d67b2bed44e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Source Files\Scenes">
+      <UniqueIdentifier>{3f705368-f78e-4846-b6c3-471aa7d70740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Header Files\Scenes">
+      <UniqueIdentifier>{1c83eb90-c0d7-4f54-baa9-036a9ef3e6c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Header Files\Others">
+      <UniqueIdentifier>{0164bdbb-df3e-448a-b857-1658c7215be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Source Files\Others">
+      <UniqueIdentifier>{15b883e7-f0f8-4a24-92d2-251967016a03}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\PlantsVsZombies.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\BucketZombies.cpp">
+      <Filter>Class\Source Files\Zombies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CabbagePult.cpp">
+      <Filter>Class\Source Files\Plants</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CherryBomb.cpp">
+      <Filter>Class\Source Files\Plants</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CommonDoorZombies.cpp">
+      <Filter>Class\Source Files\Zombies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CommonZombies.cpp">
+      <Filter>Class\Source Files\Zombies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ConeDoorZombies.cpp">
+      <Filter>Class\Source Files\Zombies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ConeZombies.cpp">
+      <Filter>Class\Source Files\Zombies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FirePeaShooter.cpp">
+      <Filter>Class\Source Files\Plants</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Garlic.cpp">
+      <Filter>Class\Source Files\Plants</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AdventureGameScene.cpp">
+      <Filter>Class\Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Class\Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelpScene.cpp">
+      <Filter>Class\Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\InputDataScene.cpp">
+      <Filter>Class\Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Jalapeno.cpp">
+      <Filter>Class\Source Files\Plants</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoadingScene.cpp">
+      <Filter>Class\Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LpmZombies.cpp">
+      <Filter>Class\Source Files\Zombies</Filter>
+    </ClCompile>
+    <ClCompile Include="PlantsVsZombies.cpp">
+      <Filter>Class\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainMenu.cpp">
+      <Filter>Class\Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\OptionsSence.cpp">
+      <Filter>Class\Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Pause_Quit_Game.cpp">
+      <Filter>Class\Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PeaShooter.cpp">
+      <Filter>Class\Source Files\Plants</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Plants.cpp">
+      <Filter>Class\Source Files\Plants</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PotatoMine.cpp">
+      <Filter>Class\Source Files\Plants</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Quit_Game.cpp">
+      <Filter>Class\Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\QuitScene.cpp">
+      <Filter>Class\Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Request.cpp">
+      <Filter>Class\Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SelectPlantsGameReadyScene.cpp">
+      <Filter>Class\Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SelectWorldScene.cpp">
+      <Filter>Class\Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Spikeweed.cpp">
+      <Filter>Class\Source Files\Plants</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SunFlower.cpp">
+      <Filter>Class\Source Files\Plants</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Torchwood.cpp">
+      <Filter>Class\Source Files\Plants</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UserLose.cpp">
+      <Filter>Class\Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WallNut.cpp">
+      <Filter>Class\Source Files\Plants</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\World_1.cpp">
+      <Filter>Class\Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Zombies.cpp">
+      <Filter>Class\Source Files\Zombies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BucketDoorZombies.cpp">
+      <Filter>Class\Source Files\Zombies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameEasterEggs.cpp">
+      <Filter>Class\Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Class\Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BackGroundLayer.cpp">
+      <Filter>Class\Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Car.cpp">
+      <Filter>Class\Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Dialog.cpp">
+      <Filter>Class\Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameType.cpp">
+      <Filter>Class\Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GlobalVariable.cpp">
+      <Filter>Class\Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JudgeProFile.cpp">
+      <Filter>Class\Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelData.cpp">
+      <Filter>Class\Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UiIamgeText.cpp">
+      <Filter>Class\Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UserWinRequirement.cpp">
+      <Filter>Class\Source Files\Others</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\BucketDoorZombies.h">
+      <Filter>Class\Header Files\Zombies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BucketZombies.h">
+      <Filter>Class\Header Files\Zombies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CabbagePult.h">
+      <Filter>Class\Header Files\Plants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CherryBomb.h">
+      <Filter>Class\Header Files\Plants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CommonDoorZombies.h">
+      <Filter>Class\Header Files\Zombies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CommonZombies.h">
+      <Filter>Class\Header Files\Zombies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ConeDoorZombies.h">
+      <Filter>Class\Header Files\Zombies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ConeZombies.h">
+      <Filter>Class\Header Files\Zombies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FirePeaShooter.h">
+      <Filter>Class\Header Files\Plants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Garlic.h">
+      <Filter>Class\Header Files\Plants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdventureGameScene.h">
+      <Filter>Class\Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Class\Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelpScene.h">
+      <Filter>Class\Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\InputDataScene.h">
+      <Filter>Class\Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Jalapeno.h">
+      <Filter>Class\Header Files\Plants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoadingScene.h">
+      <Filter>Class\Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LpmZombies.h">
+      <Filter>Class\Header Files\Zombies</Filter>
+    </ClInclude>
+    <ClInclude Include="PlantsVsZombies.h">
+      <Filter>Class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainMenu.h">
+      <Filter>Class\Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\OptionsSence.h">
+      <Filter>Class\Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Pause_Quit_Game.h">
+      <Filter>Class\Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PeaShooter.h">
+      <Filter>Class\Header Files\Plants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Plants.h">
+      <Filter>Class\Header Files\Plants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PotatoMine.h">
+      <Filter>Class\Header Files\Plants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Quit_Game.h">
+      <Filter>Class\Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\QuitScene.h">
+      <Filter>Class\Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Request.h">
+      <Filter>Class\Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SelectPlantsGameReadyScene.h">
+      <Filter>Class\Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SelectWorldScene.h">
+      <Filter>Class\Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Spikeweed.h">
+      <Filter>Class\Header Files\Plants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SunFlower.h">
+      <Filter>Class\Header Files\Plants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Torchwood.h">
+      <Filter>Class\Header Files\Plants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UserLose.h">
+      <Filter>Class\Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WallNut.h">
+      <Filter>Class\Header Files\Plants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\World_1.h">
+      <Filter>Class\Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Zombies.h">
+      <Filter>Class\Header Files\Zombies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameEasterEggs.h">
+      <Filter>Class\Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Class\Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Car.h">
+      <Filter>Class\Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BackGroundLayer.h">
+      <Filter>Class\Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Dialog.h">
+      <Filter>Class\Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameType.h">
+      <Filter>Class\Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GlobalVariable.h">
+      <Filter>Class\Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JudgeProFile.h">
+      <Filter>Class\Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelData.h">
+      <Filter>Class\Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UiImageText.h">
+      <Filter>Class\Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UserWinRequirement.h">
+      <Filter>Class\Header Files\Others</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
